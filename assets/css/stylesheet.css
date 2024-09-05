@@ -5,18 +5,30 @@
     box-sizing: border-box;
 }
 
+/*General style*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*generic prjoject styles*/
+    color: #3a3a3a;
+}
+
 /*HEADER*/
-header{ 
+header { 
     background-color: lightcoral;
 }
 
 
 /*Main Content*/
-main{
+main {
     background-color: lightblue;
+    /*make main conetent fill any free space*/
+    flex: 1 0 auto;
+    
 }
 
 /*Footer*/
-footer{
+footer {
     background-color: orange;
 }
